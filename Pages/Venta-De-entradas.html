@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de entradas</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Venta de entradas</h1>
+    </header>
+        <nav class="nav">
+            
+            <a class="menu" href="../index.html">Inicio</a>
+            <a class="menu" href="Calendario.html">Calendario</a>
+            <a class="menu" href="Circuitos.html">Circuitos</a>
+            <a class="menu" href="Categorias.html">Categorias</a>
+            
+        </nav>
+    <div class="header">
+        <form class="fieldset">
+            <fieldset class="ticket">
+                <legend> Reserva de Tickets</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="Nombre">    
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="Apellido">    
+                </div>
+                <div>
+                    <label for="email">Email de contacto</label>
+                    <input type="text" name="email">
+                </div>                
+                <div>
+                    Elija su entrada
+                    <select name="entradas">
+                        <option value="generales"> General</option>
+                        <option value="boxes">Boxes</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                <img src="./Multimedia/STR.jpg" alt="STR">
+                <img src="./Multimedia/SE1.jpg" alt="SE1">
+            </fieldset>
+        </form>
+    </div>
+    
+    <footer class="footer">
+        <p>Asociacion Uruguaya de Volantes</p>
+    </footer>
+</body>
+</html>
