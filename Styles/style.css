@@ -60,7 +60,7 @@ nav{
 
 }
 .img{
-    
+    width: 300px;
     grid-area: content;
     align-content: center;
     justify-content: center;
@@ -80,10 +80,9 @@ nav{
 .lista{
     margin-left: 15px;
 }
-.footer{
-    display:grid;
+footer{
     grid-area: footer;
-    flex-direction: row-reverse;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
     margin-top: 5px;
