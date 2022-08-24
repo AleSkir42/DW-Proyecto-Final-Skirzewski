@@ -51,6 +51,7 @@ nav{
 main{
     background-color: aqua;
     justify-content: center;
+    margin: 25px 35px 25px 50px ;
 
 }
 .section{
@@ -71,7 +72,7 @@ main{
 }
 .imgCalendario{
     margin: 15px 15px 15px 15px;
-    width: 800px;
+    width: 100%;
     height: 800px;
 }
 .calendario{
@@ -107,6 +108,13 @@ footer{
 }
 
 @media screen and (max-width: 380px) {
+    
+    main{
+        width: 380px;
+        padding: 5px 5px 5px 5px;
+        margin: 15px 15px 15px 15px;
+        justify-content: center;
+    }
     aside{
         width: 50%;
         justify-content: center;
@@ -119,6 +127,15 @@ footer{
         width: 380px;
     }
     .imgCalendario{
+        width: 100%;
+    }
+    .container{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
         width: 380px;
+    }
+    .img{
+        width: 25%;
     }
 }
